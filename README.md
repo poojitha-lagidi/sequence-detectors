@@ -13,3 +13,4 @@ Output of Non-Overlapping Sequence Detctor:              000000100000100 (sequen
 The states are declared as parameters using the **One-Hot Encoding Method**, a popular technique for encoding state machine values. This method ensures the circuit can operate at higher clock frequencies but requires more Flip-Flops than necessary, leading to more invalid states.
 </br>
 The issue of invalid states can be mitigated by using a default statement. It is considered a *best practice* to include a **default** statement because it prevents the synthesis of latches and ensures the state machine does not get stuck in an undefined state. </br>
+![ONO FSM 11011](https://github.com/poojitha-lagidi/sequence-detectors/assets/160959553/a494288c-df7d-4a83-ba58-c207837a0001)
